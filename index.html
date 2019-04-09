@@ -1,68 +1,81 @@
 <center>
     <pre>
-
+<p style="text-align: center; margin-bottom: 0; padding-bottom: 0; font-size: 14px">
 <b>Troy Engelhardt</b>
-tpengelhardt@gmail.com
+troy.engelhardt@hotmail.com
+<a href=https://github.com/yortug>GitHub</a>  <a href=https://www.linkedin.com/in/troyengelhardt/>LinkedIn</a>  <a href=https://www.facebook.com/troy.engelhardtt>Facebook</a>
+</p>
 
 <hr>
-Last modified: 08 June, 2018
+
+
+<div style="text-align: center; margin-top: -4em">
+<div style="display: inline-block; text-align: left;">
+
+<h1>Projects:</h1>
+
+<a href="optimal_portfolio/optimal_portfolio.html" style="font-size: 18px;">Optimal Portfolio S&P 500</a>
+- finding the optimal set of stocks to include within an equity portfolio
+- restricted to only using companies who're listed on S&P 500
+- the project focuses on finding the optimal weights to distribute a hypothetical $10 million across all stocks
+- the final portfolio showcases roughly $1 million profit when it was tested over the Jan-2018 to Jul-2018 period
+- as we don't have $10 million to spare, (unfortunately) no money was actually thrown down
+
+<a href="predicting_aromaticity/predicting_aromaticity.html" style="font-size: 18px;">Predicting Aromaticity In Diesel Fuels</a>
+- predicting the amount of aromaticity (an 'impurity') in diesel fuels using spectroscopy data
+- we go through the process of reducing our large feature set using stepwise variable reduction methods
+- we then model this relationship starting with simple linear regression, and moving to the multivariate space
+- methods of partial least squares and LASSO are also demonstrated
+- showcased some basic, static visualisations looking at model assumptions, outliers, leverage, etc.
+- you should (hopefully) be able to understand the introduction and conclusion with almost no prior knowledge
+
+
+<a href="https://github.com/yortug/electoral-campaign" style="font-size: 18px;">Finding an Optimal Campaign Trail</a>
+- an assignment used to learn and explore data structures & algorithms
+- scraped wikipedia for the coordinates of all Australian voting electorates
+- fed these coordinates through GoogleMap's API to find the estimated driving distance & time
+- used this data in combination with the 2016 election data to model an optimal campaign route given a set of 'marginal elecorates'
+- documentation.pdf file in the repo explains the project in a lot more depth
+- implemented a terminal based program which gives you the option to:
+    + filter candidates by state, electorate and party
+    + search for candidates by name
+    + find a set of marginal electorates
+    + find an optimal campaign route through marginal electorates
+
+<a href="weather_analysis/weather_analysis.html" style="font-size: 18px;">Perth Weather Analysis</a>
+- a basic look at the weather patterns within Perth (using 2016 BOM data)
+- heavy use of the python package 'bokeh' to make my visualisations dynamic and interactive
+- the project explores the data to provide evidence for the suitability of renewable energy
+- looking into questions like; wind or solar? are we in or heading towards a drought?
+- unfortunately BOM doesn't have the data available anymore, still should work, just updating it was a challenge
+
+<a href="afl_project/afl_project.html" style="font-size: 18px;">AFL Predictions</a>
+- a loose attempt at trying to predict AFL wins and losses
+- one of my first projects ever attempted, so the data wrangling, exploration and cleaning is rather basic
+- somewhat naively apply logistic regression, k-nearest neighbours and decision trees/random forests
+- quite a vast emphasis on visualisation (histograms, pie charts, stacked bar plots, etc.)
+
+<a href="drug_dosage/drug_dosage.html" style="font-size: 18px;">Drug Dosage Simulator</a>
+- a drug dosage simulation project, one of my first projects within python
+- an attempt to find the optimal dosage of two 'drugs'
+- really a test in understanding the language; reading & outputting to files, creating shell scripts, etc.
+- although the 'drugs' are contrived examples, the absorbtion formula and the working is actually legitimate
+
+<a href="text_scrape/text_scrape.html" style="font-size: 18px;">Website Text-Scrape & NLP Wordcloud</a>
+- a project scraping unstructured, untouched text from an infamous image/discussion board
+- then processing that data into something in which a word frequency can be calculated
+- a wordcloud visualisation was then created to display the most used words within this sample
+- very basic, and not too flashy, but it was just a project carried out in the holidays out of boredom
+
+
+</div>
+</div>
+
+<hr>
+Last modified: 09 April, 2019
 
 <i>This is a small collection of my projects
 hope you enjoy and find something useful.</i>
-
-<a href=https://github.com/yortug>GitHub</a>
-<a href=https://twitter.com/troyengelhardt>Twitter</a>
-<a href=https://www.linkedin.com/in/troyengelhardt/>LinkedIn</a>
-<a href=https://www.facebook.com/troy.engelhardtt>Facebook</a>
-
-<hr>
-
-
-<h1>and in no particular order</h1>
-
-<a href="optimal_portfolio/optimal_portfolio.html">Optimal Portfolio S&P 500</a>
-- latest project completed for university (STAT2005)
-- finding the optimal set of stocks to include in a portfolio
-- only using companies listed on S&P 500
-- finding the optimal weights to distribute $10 million across all stocks
-
-<a href="predicting_aromaticity/predicting_aromaticity.html">Predicting Aromaticity In Diesel Fuels</a>
-- my favourite project to work on to date
-- predicting the amount of aromaticity (an 'impurity') in diesel fuels using spectroscopy data
-- the report goes rather in-depth but I try to keep my explainations rather 'open'
-- you should be able to read <i>and understand</i> the introduction and conclusion with almost no prior knowledge
-- some fancy tag words to get you excited: simple linear regression, multi linear regression, stepwise variable reduction,
-- all subset 'brute force', partial least squares, LASSO and there're some nice visualisations in there too
-
-<a href="drug_dosage/drug_dosage.html">Drug Dosage Simulator</a>
-- an attempt to find the optimal dosage of two ''''drugs''''
-- an aggregation of .sh scripts called through python
-- although the ''''drugs'''' may have some legitimacy concerns, the method and discussion is solid
-
-<a href="text_scrape/text_scrape.html">Website Text-Scrape & NLP Wordcloud</a>
-- WARNING: contains explicit language, steer clear if this might offend you
-- scraping unstructured, untouched text from an infamous image/discussion board
-- processing that data into something in which a word frequency can be calculated
-- creating a wordcloud visualisation to display the most used words within this sample
-- scraping the country tags, time stamps, and then creating a dynamic dashboard for filtering would be a neat next step
-
-<a href="afl_project/afl_project.html">AFL Predictions</a>
-- a loose attempt at trying to predict AFL wins and losses
-- data wrangling, exploration and cleaning
-- Logistic Regression, K-Nearest Neighbours, Decision Trees/Random Forests
-- a huge amount of visualisation (histograms, pie charts, stacked bar plots, etc)
-
-<a href="weather_analysis/weather_analysis.html">Perth Weather Analysis</a>
-- exploring the suitability of renewable energy and judging climate through sifting Perth Metro weather data
-- which will prevail; wind or solar? is there any evidence for us moving towards serious drought?
-- I made heavy use of a python package called bokeh, a javascript based dynamic visualisation tool
-- data I used is unfortunately not available to download through my scripts (blame BOM), so updating it was a challenge
-
-
-<br>
-
-<hr/>
-
 
 
 
